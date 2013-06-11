@@ -5,7 +5,6 @@ nrMax = defaultMax
 fibonacci = (n) ->
   return fibResults[n] if fibResults[n]
 
-  #console.log(n)
   if n < 2
     fibResults[n] = n
   else
