@@ -13,4 +13,4 @@ fibonacci = (n) ->
 
 nrMax = process.argv[2] if process.argv[2]
 
-console.log(i + ": " + fibonacci(i)) for i in [0..nrMax]
+console.log("#{i}: #{fibonacci(i)}") for i in [0..nrMax]
